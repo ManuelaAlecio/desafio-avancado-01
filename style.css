@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: #2C2B3D;
+}
+
+nav {
+  margin: 70px auto 100px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 64px;
+}
