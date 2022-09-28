@@ -17,12 +17,16 @@ ul {
 }
 
  nav ul li a{
-  color: #fff;
+  color: rgba(255, 255, 255);
   text-decoration: none;
 
   font-size: 14px;
   line-height: 28px;
   font-family: 'JetBrains Mono', monospace;
+}
+
+nav ul li a:hover {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 main {
@@ -62,4 +66,31 @@ p {
 
 .text {
   margin: 60px auto auto 82px;
+}
+
+footer {
+  color: #fff;
+
+  margin-top: 80px;
+  text-align: center;
+
+  font-size: 14px;
+  line-height: 28px;
+  font-family: 'JetBrains Mono';
+}
+
+footer a {
+  color: #fff;
+
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.padlock {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
 }
